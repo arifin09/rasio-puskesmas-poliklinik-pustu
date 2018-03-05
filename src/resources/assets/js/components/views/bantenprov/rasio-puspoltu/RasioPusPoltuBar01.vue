@@ -23,13 +23,13 @@ export default {
           show: true
         },
         xAxis: {
-          data: ['0','0','0','0','0','0']
+          data: ['0','0','0','0','0','0','0','0']
         },
         yAxis: {},
         series: [{
           type: 'bar',
           data: [],
-          barWidth: 20,
+          barWidth: 25,
           barGap: '-100%'
         }],
         color: {
@@ -48,33 +48,52 @@ export default {
       }
     }
   },
-  mounted: function () {
-    axios.get('/json/bantenprov/rasio-puspoltu/rasio-puspoltu01.json').then(response => {
+   mounted: function () {
+    axios.get('/json/bantenprov/rasio-puspoltu/rasio-puspoltu-010.json').then(response => {
 
-      var e = response.data;
-      var get = e[0].chartdata.grafik[0];
+      let ke = 0;
 
+      var res = response.data;
+
+      /**
+      * response :
+      * console.log(res)
+      *
+      * xAxis
+      * console.log(res[0].xAxis.data)
+      * console.log(Object.values(res[0].xAxis.data))
+      *
+      * series data
+      * console.log(res[0].series[0].data)
+      *
+      * region
+      * console.log(res[0].xAxis.region)
+      *
+      * length
+      * console.log(res.length);
+      */
+
+      this.bar.xAxis.data = Object.values(res[0].xAxis.data);
+      this.bar.series[0].data = res[0].series[0].data;
+      this.bar.title.text = res[0].xAxis.title;
+
+      // interval
       let i = 0;
 
-      this.bar.xAxis.data = Object.keys(response.data[0].chartdata.grafik[0].tahun[0]);
-      this.bar.series[0].data = Object.values(response.data[0].chartdata.grafik[0].tahun[0]);
-      this.bar.title.text = response.data[0].chartdata.grafik[0].tingkat + ' ' +response.data[0].chartdata.grafik[0].name;
-
       setInterval(() => {
+
+        this.bar.xAxis.data = Object.values(res[i].xAxis.data);
+        this.bar.series[0].data = res[i].series[0].data;
+        this.bar.title.text = res[i].xAxis.title;
+
         i++;
-        setTimeout(() => {
 
-          this.bar.xAxis.data = Object.keys(response.data[0].chartdata.grafik[i].tahun[0]);
-          this.bar.series[0].data = Object.values(response.data[0].chartdata.grafik[i].tahun[0]);
-          this.bar.title.text = response.data[0].chartdata.grafik[i].tingkat + ' ' + response.data[0].chartdata.grafik[i].name;
-
-        }, 10);
-
-        if(i ==  response.data[0].chartdata.grafik.length) {
+        if(i == res.length)
+        {
           i = 0;
         }
-      }, 5000);
-      this.loading = false;
+
+      },4000);
 
     })
     .catch(function(error) {
