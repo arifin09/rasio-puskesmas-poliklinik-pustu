@@ -4,14 +4,20 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "yyyy": "2018"
+      "yyyy": "2013",
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu 2013"
     },
     "series": [
       {
         "data": [
-          {"value":120,"name":"SD/MI/Paket A"},
-          {"value":200,"name":"SMP/MTS/Paket B"},
-          {"value":150,"name":"SMA/SMK/Paket C"}
+          {"value":111,"name":"Kab.Pandeglang"},
+          {"value":127,"name":"Kab.Lebak"},
+          {"value":491,"name":"Kab.Tangerang"},
+          {"value":166,"name":"Kab.Serang"},
+          {"value":68,"name":"Kota Tangerang"},
+          {"value":81,"name":"Kota Cilegon"},
+          {"value":87,"name":"Kota Serang"},
+          {"value":366,"name":"Kota Tangerang Selatan"}
         ]
       }
     ]
@@ -19,16 +25,183 @@
   {
     "xAxis": {
       "type": "category",
-      "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2018"
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2014",
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu 2014"
     },
     "series": [
       {
         "data": [
-          {"value":50,"name":"SD/MI/Paket A"},
-          {"value":30,"name":"SMP/MTS/Paket B"},
-          {"value":350,"name":"SMA/SMK/Paket C"}
+          {"value":93,"name":"Kab.Pandeglang"},
+          {"value":111,"name":"Kab.Lebak"},
+          {"value":91,"name":"Kab.Tangerang"},
+          {"value":65,"name":"Kab.Serang"},
+          {"value":38,"name":"Kota Tangerang"},
+          {"value":18,"name":"Kota Cilegon"},
+          {"value":44,"name":"Kota Serang"},
+          {"value":39,"name":"Kota Tangerang Selatan"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015",
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu 2015"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":93,"name":"Kab.Pandeglang"},
+          {"value":111,"name":"Kab.Lebak"},
+          {"value":92,"name":"Kab.Tangerang"},
+          {"value":65,"name":"Kab.Serang"},
+          {"value":38,"name":"Kota Tangerang"},
+          {"value":18,"name":"Kota Cilegon"},
+          {"value":44,"name":"Kota Serang"},
+          {"value":39,"name":"Kota Tangerang Selatan"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015",
+      "title": "Jumlah Penduduk 2013"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":1183006,"name":"Kab.Pandeglang"},
+          {"value":1247906,"name":"Kab.Lebak"},
+          {"value":3157780,"name":"Kab.Tangerang"},
+          {"value":1450894,"name":"Kab.Serang"},
+          {"value":1952396,"name":"Kota Tangerang"},
+          {"value":398304,"name":"Kota Cilegon"},
+          {"value":618802,"name":"Kota Serang"},
+          {"value":1443403,"name":"Kota Tangerang Selatan"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015",
+      "title": "Jumlah Penduduk 2014"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":1188405,"name":"Kab.Pandeglang"},
+          {"value":1259305,"name":"Kab.Lebak"},
+          {"value":3264776,"name":"Kab.Tangerang"},
+          {"value":1463094,"name":"Kab.Serang"},
+          {"value":1999894,"name":"Kota Tangerang"},
+          {"value":405303,"name":"Kota Cilegon"},
+          {"value":631101,"name":"Kota Serang"},
+          {"value":1492999,"name":"Kota Tangerang Selatan"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015",
+      "title": "Jumlah Penduduk 2015"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":1194911,"name":"Kab.Pandeglang"},
+          {"value":1269812,"name":"Kab.Lebak"},
+          {"value":3370594,"name":"Kab.Tangerang"},
+          {"value":1474301,"name":"Kab.Serang"},
+          {"value":2047105,"name":"Kota Tangerang"},
+          {"value":412106,"name":"Kota Cilegon"},
+          {"value":643205,"name":"Kota Serang"},
+          {"value":1543209,"name":"Kota Tangerang Selatan"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015",
+      "title": "RPP 2013"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":9.38,"name":"Kab.Pandeglang"},
+          {"value":10.18,"name":"Kab.Lebak"},
+          {"value":15.55,"name":"Kab.Tangerang"},
+          {"value":11.44,"name":"Kab.Serang"},
+          {"value":3.48,"name":"Kota Tangerang"},
+          {"value":20.34,"name":"Kota Cilegon"},
+          {"value":14.06,"name":"Kota Serang"},
+          {"value":25.36,"name":"Kota Tangerang Selatan"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015",
+      "title": "RPP 2014"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":7.83,"name":"Kab.Pandeglang"},
+          {"value":8.81,"name":"Kab.Lebak"},
+          {"value":2.79,"name":"Kab.Tangerang"},
+          {"value":4.44,"name":"Kab.Serang"},
+          {"value":1.90,"name":"Kota Tangerang"},
+          {"value":4.44,"name":"Kota Cilegon"},
+          {"value":6.97,"name":"Kota Serang"},
+          {"value":2.61,"name":"Kota Tangerang Selatan"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015",
+      "title": "RPP 2015"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":7.78,"name":"Kab.Pandeglang"},
+          {"value":8.74,"name":"Kab.Lebak"},
+          {"value":2.73,"name":"Kab.Tangerang"},
+          {"value":4.41,"name":"Kab.Serang"},
+          {"value":1.86,"name":"Kota Tangerang"},
+          {"value":4.37,"name":"Kota Cilegon"},
+          {"value":6.84,"name":"Kota Serang"},
+          {"value":2.53,"name":"Kota Tangerang Selatan"}
         ]
       }
     ]

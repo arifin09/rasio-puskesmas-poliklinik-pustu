@@ -1,126 +1,504 @@
 [
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu Kab.Pandeglang",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
+        "2013",
         "2014",
-        "2015",
-        "2016"
+        "2015"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          200,
-          150
+          111,
+          93,
+          93
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
-      "region": "Negara",
-      "name": "Indonesia",
-      "data": [
-        "2014",
-        "2015",
-        "2016"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          300,
-          450,
-          750
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "SMP/MTS/Paket B",
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu Kab.Lebak",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
+        "2013",
         "2014",
-        "2015",
-        "2016"
+        "2015"
       ]
     },
     "series": [
       {
         "data": [
-          220,
-          270,
-          350
+          127,
+          111,
+          111
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMP/MTS/Paket B",
-      "region": "Negara",
-      "name": "Indonesia",
-      "data": [
-        "2014",
-        "2015",
-        "2016"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          380,
-          510,
-          690
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "SMA/SMK/Paket C",
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu Kab.Tangerang",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
+        "2013",
         "2014",
-        "2015",
-        "2016"
+        "2015"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          270,
-          450
+          491,
+          91,
+          92
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMA/SMK/Paket C",
-      "region": "Negara",
-      "name": "Indonesia",
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu Kab.Serang",
+      "region": "Provinsi",
+      "name": "Banten",
       "data": [
+        "2013",
         "2014",
-        "2015",
-        "2016"
+        "2015"
       ]
     },
     "series": [
       {
         "data": [
-          680,
-          710,
-          1990
+          166,
+          65,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu Kota Tangerang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          68,
+          38,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu Kota Cilegon",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          81,
+          18,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu Kota Serang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          87,
+          44,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Puskesmas/Poliklinik/Pustu Kota Tangerang Selatan",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          366,
+          39,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Penduduk Kabupaten Pandeglang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1183006,
+          1188405,
+          1194911
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Penduduk Kabupaten Lebak",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1247906,
+          1259305,
+          1269812
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Penduduk Kabupaten Tangerang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          3157780,
+          3264776,
+          3370594
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Penduduk Kabupaten Serang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1450894,
+          1463094,
+          1474301
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Penduduk Kota Tangerang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1952396,
+          1999894,
+          2047105
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Penduduk Kota Cilegon",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          398304,
+          405303,
+          412106
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Penduduk Kota Serang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          618802,
+          631101,
+          643205
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Jumlah Penduduk Kota Tangerang Selatan",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          1443403,
+          1492999,
+          1543209
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "RPP Kabupaten Pandeglang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          9.38,
+          7.83,
+          7.78
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "RPP Kabupaten Lebak",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          10.18,
+          8.81,
+          8.74
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "RPP Kabupaten Tangerang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          15.55,
+          2.79,
+          2.73
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "RPP Kabupaten Serang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          11.44,
+          4.44,
+          4.41
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "RPP Kota Tangerang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          3.48,
+          1.90,
+          1.86
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "RPP Kota Cilegon",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          20.34,
+          4.44,
+          4.37
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "RPP Kota Serang",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          14.06,
+          6.97,
+          6.84
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "RPP Kota Tangerang Selatan",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          25.36,
+          2.61,
+          2.53
         ]
       }
     ]
